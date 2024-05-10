@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+  background-color: green;
+  color: white; 
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-around;
+  padding-top: 20px;
+ .pointer {cursor: pointer;}
+  
+
+}
+
+.navbar h1{
+    margin-top: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+
+
+
+
+}
+
+.navbar ul li{
+    list-style-type: none;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+.container img{
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.cart{
+    width: 300px;
+    height: 360px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.cart img{
+    width: 100%;
+    margin-top: 5px;
+    height: 40%;
+
+}
+h1,
+p{
+    padding-left: 7px;
+}
+
+.product{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+
+
+
+}
